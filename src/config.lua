@@ -19,11 +19,14 @@ return {
 	Aphrodite = { Enabled = true },
 	Poseidon = { Enabled = true },
 	Hephaestus = { Enabled = true },
-	Artemis = { Enabled = true },
 	Hermes = { Enabled = true },
 	Apollo = { Enabled = true },
 	Demeter = { Enabled = true },
 	Ares = { Enabled = true },
+
+	Artemis = { Enabled = true },
+	Athena = { Enabled = true },
+	Dionysus = { Enabled = true },
 
 	-- Stacking Upgrades
 	StackAmount = 1,

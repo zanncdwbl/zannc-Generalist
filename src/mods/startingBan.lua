@@ -2,7 +2,7 @@
 ---@diagnostic disable: lowercase-global
 
 local mods = rom.mods
-local practicalGods = mods["zannc-Practical_Gods"]
+local droppableGods = mods["zannc-Droppable_Gods"]
 
 -- These functions are just to define all rewards, then a func for choosing upgrade, and if its a boon then a random god
 local dropUpgrades = {
@@ -21,8 +21,10 @@ local dropUpgrades = {
 	{ loot = "DemeterUpgrade", name = "Boon", custconfig = "Demeter" },
 	{ loot = "AresUpgrade", name = "Boon", custconfig = "Ares" },
 }
-if practicalGods then
+if droppableGods then
 	table.insert(dropUpgrades, { loot = "ArtemisUpgrade", name = "Boon", custconfig = "Artemis" })
+	table.insert(dropUpgrades, { loot = "AthenaUpgrade", name = "Boon", custconfig = "Athena" })
+	table.insert(dropUpgrades, { loot = "DionysusUpgrade", name = "Boon", custconfig = "Dionysus" })
 end
 
 local boonConfigs = {}
