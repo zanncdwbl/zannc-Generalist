@@ -1,6 +1,9 @@
 # Changelog
 
 ## [Unreleased]
+
+## [2.1.4] - 2025-10-24
+
 - Updated to work with Droppable Gods.
 
 ## [2.1.3] - 2025-10-13
@@ -23,11 +26,17 @@
 - Update to 1.0!
 
 - Fixed ImGUI lag (hopefully no more crashes).
+
 - Added Ares and Chaos to Starting Ban options.
+
 - Added a reset zoom button.
+
 - Fixed zoom being inconsistent through underworld runs when going into new levels.
+
 - Fixed zoom resetting per room in Crossroads.
+
 - Setting all mods in config to be disabled when first installing.
+
 - Added Nectar to configurable increased rewards.
 
 ## [2.0.0] - 2024-08-08
@@ -64,7 +73,8 @@
 - Manage your maximum grasp to allow you to select all the cards.
 - Option to remove diminishing returns from all Boons and Change Level increase for Poms.
 
-[unreleased]: https://github.com/excellent-ae/zannc-Generalist/compare/2.1.3...HEAD
+[unreleased]: https://github.com/excellent-ae/zannc-Generalist/compare/2.1.4...HEAD
+[2.1.4]: https://github.com/excellent-ae/zannc-Generalist/compare/2.1.3...2.1.4
 [2.1.3]: https://github.com/excellent-ae/zannc-Generalist/compare/2.1.2...2.1.3
 [2.1.2]: https://github.com/excellent-ae/zannc-Generalist/compare/2.1.1...2.1.2
 [2.1.1]: https://github.com/excellent-ae/zannc-Generalist/compare/2.1.0...2.1.1
